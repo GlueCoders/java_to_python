@@ -1,7 +1,7 @@
-docs:
+posts:
   - title: Java to Python
     children:
       - title: "Chapter 1"
-        url: /blog/1.md
+        url: /posts/1.md
       - title: "Chapter 2"
-        url: /blog/2.md
+        url: /posts/2.md
