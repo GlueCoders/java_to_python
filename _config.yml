@@ -1,4 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes"
+author: Anand Rajneesh
+author_email: anandrajneesh@outlook.com
 defaults:
   # _docs
   - scope:
