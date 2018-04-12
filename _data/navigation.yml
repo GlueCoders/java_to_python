@@ -1,7 +1,0 @@
-posts:
-  - title: Java to Python
-    children:
-      - title: "Chapter 1"
-        url: /posts/1.md
-      - title: "Chapter 2"
-        url: /posts/2.md
