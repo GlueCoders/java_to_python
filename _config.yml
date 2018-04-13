@@ -268,10 +268,3 @@ defaults:
       related: true
       sidebar:
         nav: docs
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
