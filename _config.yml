@@ -99,8 +99,8 @@ analytics:
 author:
   name             : "Anand Rajneesh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : ""
+  location         : ""
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
