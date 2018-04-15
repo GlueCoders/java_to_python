@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: {}
+date: 2018-04-15
 categories: basics python
 published: true
 ---
