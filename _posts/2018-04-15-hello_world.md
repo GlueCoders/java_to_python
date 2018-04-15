@@ -1,6 +1,12 @@
 ---
 published: false
 ---
+---
+title:  "Hello World"
+date:   2018-04-15
+categories: basics python
+---
+
 ## Hello World
 
 This is customary introduction which prints Hello World out there on console.
