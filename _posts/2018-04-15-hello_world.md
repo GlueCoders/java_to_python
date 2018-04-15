@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2018-04-15
+date: {}
 categories: basics python
 published: true
 ---
@@ -26,4 +26,9 @@ You can run it via IDE right click or by issuing following cmd on cmd prompt:
 
 Interesting fact :
 Go on cmd prompt, type python and you will get python console.
-Enter import this and you will see cool guidelines for writing code. That is known as PEP-8
+Enter import this and you will see cool guidelines for writing code. That is known as PEP-8  
+
+#### Naming Conventions:  
+
+Unlike Java, Python  doesn't recommend camel cases for naming. So file names, variable names and other such declarations have lower caps with underscore has logical delimiter. For example hello_world.py and variables as customer_name and not customerName.
+
