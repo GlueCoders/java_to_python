@@ -1,10 +1,9 @@
 ---
-title:  "Hello World"
-date:   2018-04-15
+title: Hello World
+date: {}
 categories: basics python
+published: true
 ---
-
-## Hello World
 
 This is customary introduction which prints Hello World out there on console.
 
@@ -23,9 +22,8 @@ You can run it via IDE right click or by issuing following cmd on cmd prompt:
 ```
 > python hello_world.py
 ```
-
+  
 
 Interesting fact :
 Go on cmd prompt, type python and you will get python console.
 Enter import this and you will see cool guidelines for writing code. That is known as PEP-8
-
