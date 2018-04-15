@@ -3,6 +3,8 @@ docs:
     children:
       - title: Hello World
         url: "/posts/2018-04-15-hello_world/"
+      - title: Variables
+        url: "/posts/2018-04-15-variables/"
   - title: thisisagain
     url:  "/posts/2018-04-13-thisisagain/"
   - title: thisisagain1
