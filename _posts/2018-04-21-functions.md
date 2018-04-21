@@ -111,6 +111,7 @@ friends('Paul', 'John', 'Alex', 'Jean')
 #Alex
 #Jean
 ```
+```
 #Dict type vararg
 def report_card(student_name, **subjects_marks):
     print('Student ' + student_name + ' has following marks')
@@ -158,16 +159,3 @@ order = {'bread': 'multigrain', 'veggies': ['tomato', 'cucumber'], 'meat': 'chic
 #Unpacking order dict to match make_sandwich parameters
 make_sandwich(**order)
 ```  
-
-
-
-
-
-
-
-
-
-
-
-
-
