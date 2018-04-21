@@ -47,7 +47,9 @@ def make_sandwich(bread='multigrain', veggies=None, meat='chicken', sauces=None)
 
 
 make_sandwich('multigrain', ['tomato', 'cucumber'], 'chicken', ['mayo', 'sweet onion'])
+#All default values will be used in this invocation  
 make_sandwich()
+
 make_sandwich('wheat', ['olives', 'jalapeno'])
 make_sandwich('wheat', ['olives', 'jalapeno'], 'bacon')
 ```  
@@ -82,9 +84,13 @@ def make_sandwich(bread, veggies, meat, sauces):
     print('Loaded with ' + meat)
     print('Delicious sauces: ' + str(sauces))
 
-
+# All arguments as keyword arguments  
 make_sandwich(bread='multigrain', veggies=['tomato', 'cucumber'], meat='chicken', sauces=['mayo', 'sweet onion'])
+
+#Order does not matter if all of them are keyword arguments  
 make_sandwich(veggies=['tomato', 'cucumber'], bread='multigrain', sauces=['mayo', 'sweet onion'], meat='chicken')
+
+#Positional arguments come first
 make_sandwich('multigrain', ['tomato', 'cucumber'], sauces=['mayo', 'sweet onion'], meat='chicken')
 
 ```  
@@ -96,13 +102,13 @@ The order of arguments doesn't matter if all are being passed as keyword argumen
 In Python we have two vararg types, one is of tuple type and other is dict. Tuple is just like a List only it can have unrelated things in one collection, and Dict is basically a Map.  
 
 ```
-#Tuple/List type vararg
+#Tuple/List type vararg, note the *friends parameter
 def friends(student_name, *friends):
     print(student_name + ' has following friends: ')
     for friend in friends:
         print(friend)
 
-#John, Alex and Jean goes in friends parameter
+#John, Alex and Jean goes in *friends parameter
 friends('Paul', 'John', 'Alex', 'Jean')
 
 #prints following
@@ -112,13 +118,13 @@ friends('Paul', 'John', 'Alex', 'Jean')
 #Jean
 ```
 ```
-#Dict type vararg
+#Dict type vararg, note the **subject_marks parameter
 def report_card(student_name, **subjects_marks):
     print('Student ' + student_name + ' has following marks')
     for subject in subjects_marks:
         print(subject + ': ' + str(subjects_marks[subject]))
 
-# marks for maths, english and science goes in subjects_marks
+# marks for maths, english and science goes in **subjects_marks
 report_card('Paul', maths=90, english=70, science=100)
 
 #Prints following
