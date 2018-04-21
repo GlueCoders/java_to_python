@@ -5,7 +5,5 @@ docs:
         url: "/posts/2018-04-15-hello_world/"
       - title: Variables
         url: "/posts/2018-04-15-variables/"
-  - title: thisisagain
-    url:  "/posts/2018-04-13-thisisagain/"
-  - title: thisisagain1
-    url:  "/posts/2018-04-13-thisisagain1/"
+      - title: Conditional and Loop statements
+        url: "/posts/2018-04-15-ifandfor/"
