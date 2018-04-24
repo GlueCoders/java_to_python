@@ -32,6 +32,11 @@ Optionally we can also specify types for the arguments and return value as shown
 def add(x: int, y: int) -> int:
     return x + y
 ```  
+Though this does not enforce any type checking. You can still pass any type of argument to the `add` method here, like shown below :  
+```
+print(add("a", "b"))  # prints ab
+```  
+Even though signature specified int as parameter types, string works fine.
 
 #### Default Argument Values  
 
