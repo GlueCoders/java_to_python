@@ -11,13 +11,14 @@ Python has similar concept of classes as Java does, although there are many diff
 # Class Definition
 class Car:
 
-    # Constructor, self is like `this` of Java which is the first parameter for every instance method
+    # Constructor, self is like `this` of Java which is
+    #the first parameter for every instance method
     def __init__(self):
         # self. is how parameters are defined, there is no separate declaration as in Java
         self.make = 'default'
         self.status = 'Neutral'
 
-    # Method
+    # Instance Method
     def stop(self):
         self.status = 'Braking'
         print('Applying Brakes')
@@ -37,7 +38,7 @@ print(car)  # prints Make: default Status: Braking
 
 #### Instance Methods  
 
-Every instance method i.e. non static or class methods(more on this later) have `self` as first parameter; `self` acts as `this` parameters. When invoking instance method we don't have to provide `self` parameter, it is passed implicitly.  
+Every instance method i.e. non static or class methods(more on this later) have `self` as first parameter; `self` acts as `this` parameter. When invoking instance method we don't have to provide `self` parameter, it is passed implicitly.  
 ```
 # self is passed implicitly
 def stop(self):
@@ -50,7 +51,7 @@ car.stop()  # prints Applying Brakes
   
 #### Constructor  
 
-Constructor is defined by `__init__` function. In Python classes there can be only one constructor. The first parameter is always `self` as told above, apart from that constructor can take parameters which can be stored at instance level.  
+Constructor is defined by `__init__` function. In Python classes there can be only one constructor. The first parameter is always `self` as told above for instance methods, apart from that constructor can take parameters which can be stored at instance level.  
 
 ```
 class Car:
