@@ -27,7 +27,7 @@ paul.print()  # prints paul
 
 # _ is just a convention, allows modification like any other attribute
 paul._name = 'logan'
-paul.print()   # prints logan
+paul.print()  # prints logan
 ```  
 
 There is no real way of stopping someone from accessing and modifying instance variables but there is a way to advise more strongly to stay away from private variables (underscored variables). 
@@ -74,7 +74,7 @@ To avoid setting property, one can remove the setter and then following will hap
    AttributeError: can't set attribute
 ```  
 
-Though paul._name will still be available for modification. I encourage to go through this link [https://stackoverflow.com/questions/1641219/does-python-have-private-variables-in-classes] for inquisitive folks out there.
+Though paul._name will still be available for modification. I encourage to go through this link (stackoverflow-python_private_variables)[https://stackoverflow.com/questions/1641219/does-python-have-private-variables-in-classes] for inquisitive folks out there.
 
 
 
