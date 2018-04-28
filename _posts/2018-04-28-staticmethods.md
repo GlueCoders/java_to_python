@@ -1,3 +1,10 @@
+---
+title: Static Methods
+date: 2018-04-21
+categories: class python
+published: true
+---
+
 In Python, classes can have static methods. However there is no real concept for static variables, it can be achieved but that is more advanced than the current scope.  
 
 ```
