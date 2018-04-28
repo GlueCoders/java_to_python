@@ -1,6 +1,6 @@
 ---
 title: Static Methods
-date: 2018-04-21
+date: 2018-04-28
 categories: class python
 published: true
 ---
