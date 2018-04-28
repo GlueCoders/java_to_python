@@ -74,7 +74,7 @@ To avoid setting property, one can remove the setter and then following will hap
    AttributeError: can't set attribute
 ```  
 
-Though paul._name will still be available for modification. I encourage to go through this link (stackoverflow-python_private_variables)[https://stackoverflow.com/questions/1641219/does-python-have-private-variables-in-classes] for inquisitive folks out there.
+Though paul._name will still be available for modification. I encourage to go through this link [stackoverflow-python_private_variables](https://stackoverflow.com/questions/1641219/does-python-have-private-variables-in-classes) for inquisitive folks out there.
 
 
 
