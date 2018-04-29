@@ -13,3 +13,11 @@ docs:
     children:
       - title: "Introduction to Classes"
         url: "/posts/2018-04-23-classintro/"
+      - title: "Static Methods"
+        url: "/posts/2018-04-28-staticmethods/"
+      - title: "Class Methods"
+        url: "/posts/2018-04-29-classmethods/"
+      - title: "Private Variables"
+        url: "/posts/2018-04-28-pvtvariables/"
+      - title: "FAQ"
+        url: 
