@@ -1,6 +1,6 @@
 ---
 title: Inheritance
-date: {}
+date: 2018-09-18
 categories: class python
 published: true
 ---
