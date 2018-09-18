@@ -19,3 +19,5 @@ docs:
         url: "/posts/2018-04-29-classmethods/"
       - title: "Private Variables"
         url: "/posts/2018-04-28-pvtvariables/"
+      - title: "Inheritance Introduction"
+        url: "/posts/2018-09-18-inheritanceintro.md"
