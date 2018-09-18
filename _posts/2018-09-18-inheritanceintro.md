@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 title: Inheritance
 date: 2018-09-18
 categories: class python
