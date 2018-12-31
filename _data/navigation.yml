@@ -9,6 +9,8 @@ docs:
         url: "/posts/2018-04-15-ifandfor/"
       - title: "Functions"
         url: "/posts/2018-04-21-functions/"
+      - title: "String"
+        url: "/posts/2018-12-31-string/"
   - title: Class
     children:
       - title: "Introduction to Classes"
