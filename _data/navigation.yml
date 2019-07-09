@@ -1,11 +1,11 @@
 docs:
   - title: Basics
     children:
-      - title: Hello World
+      - title: "Hello World"
         url: "/posts/2018-04-15-hello_world/"
-      - title: Variables
+      - title: "Variables"
         url: "/posts/2018-04-15-variables/"
-      - title: Conditional and Loop statements
+      - title: "Conditional and Loop statements"
         url: "/posts/2018-04-15-ifandfor/"
       - title: "Functions"
         url: "/posts/2018-04-21-functions/"
