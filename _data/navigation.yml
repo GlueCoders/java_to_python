@@ -13,6 +13,8 @@ docs:
         url: "/posts/2018-12-31-string/"
       - title: "Lists"
         url: "/posts/2019-07-09-lists/"
+      - title: "Tuples"
+        url: "/posts/2019-07-09-tuples/"
   - title: Class
     children:
       - title: "Introduction to Classes"
